@@ -4,16 +4,14 @@ Content blocks commonly used with [dynamic/silverstripe-base-site](https://githu
 
 ## Requirements
 
-* dynamic/silverstripe-elemental-blog ^2.0
-* dynamic/silverstripe-elemental-customer-service ^2.0
-* dynamic/silverstripe-elemental-embedded-code ^2.0
-* dynamic/silverstripe-elemental-features ^2.0
-* dynamic/silverstripe-elemental-filelist ^2.0
-* dynamic/silverstripe-elemental-flexslider ^2.0
-* dynamic/silverstripe-elemental-gallery ^2.0
-* dynamic/silverstripe-elemental-image ^2.0
-* dynamic/silverstripe-elemental-oembed ^2.0
-* dynamic/silverstripe-elemental-promos ^2.0
+* [dynamic/silverstripe-elemental-blog](https://github.com/dynamic/silverstripe-elemental-blog) ^2.0
+* [dynamic/silverstripe-elemental-embedded-code](https://github.com/dynamic/silverstripe-elemental-embedded-code) ^2.0
+* [dynamic/silverstripe-elemental-features](https://github.com/dynamic/silverstripe-elemental-features) ^2.0
+* [dynamic/silverstripe-elemental-filelist](https://github.com/dynamic/silverstripe-elemental-filelist) ^2.0
+* [dynamic/silverstripe-elemental-flexslider](https://github.com/dynamic/silverstripe-elemental-flexslider) ^2.0
+* [dynamic/silverstripe-elemental-image](https://github.com/dynamic/silverstripe-elemental-image) ^2.0
+* [dynamic/silverstripe-elemental-oembed](https://github.com/dynamic/silverstripe-elemental-oembed) ^2.0
+* [dynamic/silverstripe-elemental-promos](https://github.com/dynamic/silverstripe-elemental-promos) ^2.0
 
 ## Installation
 
