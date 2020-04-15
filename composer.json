@@ -1,0 +1,42 @@
+{
+    "name": "dynamic/silverstripe-elemental-base-site",
+    "description": "A set of content blocks frequently used in silverstripe-base-site.",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe", "CMS", "Elemental", "Recipe", "Blocks"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Dynamic",
+            "email": "dev@dynamicagency.com",
+            "homepage": "https://www.dynamicagency.com"
+        }
+    ],
+    "require": {
+        "dynamic/silverstripe-elemental-blog": "^2.0",
+        "dynamic/silverstripe-elemental-customer-service": "^2.0",
+        "dynamic/silverstripe-elemental-embedded-code": "^2.0",
+        "dynamic/silverstripe-elemental-features": "^2.0",
+        "dynamic/silverstripe-elemental-filelist": "^2.0",
+        "dynamic/silverstripe-elemental-flexslider": "^2.0",
+        "dynamic/silverstripe-elemental-gallery": "^2.0",
+        "dynamic/silverstripe-elemental-image": "^2.0",
+        "dynamic/silverstripe-elemental-oembed": "^2.0",
+        "dynamic/silverstripe-elemental-promos": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "squizlabs/php_codesniffer": "^3.0"
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
