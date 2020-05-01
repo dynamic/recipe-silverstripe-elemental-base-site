@@ -16,7 +16,7 @@ Content blocks commonly used with [dynamic/silverstripe-base-site](https://githu
 ## Installation
 
 ```
-composer require dynamic/silverstripe-elemental-base-site
+composer require dynamic/recipe-silverstripe-elemental-base-site
 ```
 
 ## License
