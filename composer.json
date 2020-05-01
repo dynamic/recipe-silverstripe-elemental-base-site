@@ -1,5 +1,5 @@
 {
-    "name": "dynamic/silverstripe-elemental-base-site",
+    "name": "dynamic/recipe-silverstripe-elemental-base-site",
     "description": "A set of content blocks frequently used in silverstripe-base-site.",
     "type": "silverstripe-vendormodule",
     "keywords": [
