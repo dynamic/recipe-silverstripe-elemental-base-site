@@ -18,6 +18,7 @@
         }
     ],
     "require": {
+        "php": "^7.4 || ^8.0",
         "dynamic/silverstripe-elemental-blog": "^2.0",
         "dynamic/silverstripe-elemental-embedded-code": "^2.0",
         "dynamic/silverstripe-elemental-features": "^3.0",
@@ -25,7 +26,9 @@
         "dynamic/silverstripe-elemental-flexslider": "^2.0",
         "dynamic/silverstripe-elemental-image": "^2.0",
         "dynamic/silverstripe-elemental-oembed": "^2.0",
-        "dynamic/silverstripe-elemental-promos": "^3.0"
+        "dynamic/silverstripe-elemental-promos": "^3.0",
+        "silverstripe/recipe-cms": "^4",
+        "silverstripe/recipe-plugin": "^1"
     },
     "require-dev": {
         "silverstripe/recipe-testing": "^2"
