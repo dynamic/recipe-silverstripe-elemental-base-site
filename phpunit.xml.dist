@@ -2,7 +2,7 @@
 <phpunit bootstrap="vendor/silverstripe/cms/tests/bootstrap.php" colors="true">
     <testsuites>
         <testsuite name="Default">
-            <directory>vendor/dynamic/silverstripe-elemental-blog/tests</directory>
+            <!--<directory>vendor/dynamic/silverstripe-elemental-blog/tests</directory>-->
             <directory>vendor/dynamic/silverstripe-elemental-embedded-code/tests</directory>
             <directory>vendor/dynamic/silverstripe-elemental-features/tests</directory>
             <directory>vendor/dynamic/silverstripe-elemental-filelist/tests</directory>
