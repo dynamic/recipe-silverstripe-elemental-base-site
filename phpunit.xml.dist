@@ -1,13 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <phpunit bootstrap="vendor/silverstripe/cms/tests/bootstrap.php" colors="true">
-    <testsuite name="silverstripe-module/skeleton">
-        <directory>tests/</directory>
-    </testsuite>
-    <filter>
-        <whitelist addUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">src/</directory>
-            <exclude>
-                <directory suffix=".php">tests/</directory>
-            </exclude>
-        </whitelist>
-    </filter>
+    <testsuites>
+        <testsuite name="Default">
+            <directory>vendor/dynamic/silverstripe-elemental-blog/tests</directory>
+            <directory>vendor/dynamic/silverstripe-elemental-embedded-code/tests</directory>
+            <directory>vendor/dynamic/silverstripe-elemental-features/tests</directory>
+            <directory>vendor/dynamic/silverstripe-elemental-filelist/tests</directory>
+            <directory>vendor/dynamic/silverstripe-elemental-flexslider/tests</directory>
+            <directory>vendor/dynamic/silverstripe-elemental-image/tests</directory>
+            <directory>vendor/dynamic/silverstripe-elemental-oembed/tests</directory>
+            <directory>vendor/dynamic/silverstripe-elemental-promos/tests</directory>
+        </testsuite>
+    </testsuites>
 </phpunit>
