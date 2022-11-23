@@ -1,5 +1,11 @@
 # Change Log
 
+## [2.0.0](https://github.com/dynamic/recipe-silverstripe-elemental-base-site/tree/2.0.0) (2022-11-23)
+* REFACTOR update requirements related to base object 3 by @jsirish in https://github.com/dynamic/recipe-silverstripe-elemental-base-site/pull/4
+
+
+**Full Changelog**: https://github.com/dynamic/recipe-silverstripe-elemental-base-site/compare/1.0.0...2.0.0
+
 ## [1.0.0](https://github.com/dynamic/recipe-silverstripe-elemental-base-site/tree/1.0.0) (2022-11-23)
 
 * FEATURE remove customer service, gallery by @jsirish in https://github.com/dynamic/recipe-silverstripe-elemental-base-site/pull/1
