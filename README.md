@@ -30,7 +30,7 @@ See [License](license.md)
 
 ## Upgrading from version 1
 
-Recipe Elemental Base Site drops `sheadawson/silverstripe-linkable` usage in favor of `gorriecoe/silverstripe-linkfield`. To avoid data loss, install the `dynamic/silverstripe-link-migrator` module as follows:
+Recipe Silverstripe Elemental Base Site drops `sheadawson/silverstripe-linkable` usage in favor of `gorriecoe/silverstripe-linkfield`. To avoid data loss, install the `dynamic/silverstripe-link-migrator` module as follows:
 
 ```markdown
 composer require dynamic/silverstripe-link-migrator
