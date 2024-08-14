@@ -10,14 +10,12 @@ Content blocks commonly used with [dynamic/silverstripe-base-site](https://githu
 
 ## Requirements
 
-* [dynamic/silverstripe-elemental-blog](https://github.com/dynamic/silverstripe-elemental-blog) ^2.0
-* [dynamic/silverstripe-elemental-embedded-code](https://github.com/dynamic/silverstripe-elemental-embedded-code) ^2.0
-* [dynamic/silverstripe-elemental-features](https://github.com/dynamic/silverstripe-elemental-features) ^3.0
-* [dynamic/silverstripe-elemental-filelist](https://github.com/dynamic/silverstripe-elemental-filelist) ^2.0
-* [dynamic/silverstripe-elemental-flexslider](https://github.com/dynamic/silverstripe-elemental-flexslider) ^2.0
-* [dynamic/silverstripe-elemental-image](https://github.com/dynamic/silverstripe-elemental-image) ^2.0
-* [dynamic/silverstripe-elemental-oembed](https://github.com/dynamic/silverstripe-elemental-oembed) ^2.0
-* [dynamic/silverstripe-elemental-promos](https://github.com/dynamic/silverstripe-elemental-promos) ^3.0
+* [dynamic/silverstripe-elemental-blog](https://github.com/dynamic/silverstripe-elemental-blog) ^3.0
+* [dynamic/silverstripe-elemental-embedded-code](https://github.com/dynamic/silverstripe-elemental-embedded-code) ^3.0
+* [dynamic/silverstripe-elemental-features](https://github.com/dynamic/silverstripe-elemental-features) ^5.0
+* [dynamic/silverstripe-elemental-filelist](https://github.com/dynamic/silverstripe-elemental-filelist) ^3.0
+* [dynamic/silverstripe-elemental-image](https://github.com/dynamic/silverstripe-elemental-image) ^3.0
+* [dynamic/silverstripe-elemental-promos](https://github.com/dynamic/silverstripe-elemental-promos) ^5.0
 
 ## Installation
 
@@ -28,20 +26,9 @@ composer require dynamic/recipe-silverstripe-elemental-base-site
 ## License
 See [License](license.md)
 
-## Upgrading from version 1
+## Upgrading from version 3
 
-Recipe Silverstripe Elemental Base Site drops `sheadawson/silverstripe-linkable` usage in favor of `gorriecoe/silverstripe-linkfield`. To avoid data loss, install the `dynamic/silverstripe-link-migrator` module as follows:
-
-```markdown
-composer require dynamic/silverstripe-link-migrator
-```
-
-Then, run the task "Linkable to SilverStripe Link Migration" via `/dev/tasks`, or cli via:
-```markdown
-vendor/bin/sake dev/tasks/LinkableMigrationTask
-```
-
-This will populate all of the new Link fields with data from the old class.
+This module drops `gorriecoe/silverstripe-linkfield` usage in favor of `silverstripe/linkfield`.
 
 ## Getting more elements
 
