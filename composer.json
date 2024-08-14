@@ -20,10 +20,10 @@
     "require": {
         "dynamic/silverstripe-elemental-blog": "^3.0",
         "dynamic/silverstripe-elemental-embedded-code": "^3.0",
-        "dynamic/silverstripe-elemental-features": "^4.0",
+        "dynamic/silverstripe-elemental-features": "^5.0",
         "dynamic/silverstripe-elemental-filelist": "^3.0",
         "dynamic/silverstripe-elemental-image": "^3.0",
-        "dynamic/silverstripe-elemental-promos": "^4.0"
+        "dynamic/silverstripe-elemental-promos": "^5.0"
     },
     "require-dev": {
         "silverstripe/recipe-testing": "^3"
@@ -33,8 +33,8 @@
     "config": {
         "allow-plugins": {
             "composer/installers": true,
-            "silverstripe/vendor-plugin": true,
-            "silverstripe/recipe-plugin": true
+            "silverstripe/recipe-plugin": true,
+            "silverstripe/vendor-plugin": true
         },
         "process-timeout": 600
     },
